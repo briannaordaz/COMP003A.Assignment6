@@ -4,6 +4,14 @@ using System;
 
 class Program
 {
+    
+    /*
+     * This program will display a menu with three options (1. Display All Books, 2. Update One Item, and 3. Exit)
+     * If the user chooses option 1, it will display all the book items and then it will continue to loop and ask the user to enter another option.
+     * If the user chooses 2, the program will allow the user to choose which item they would like to update. Once they choose the item,
+     * the program will successfully update that item and display a message saying "Item successfully updated". If the user chooses option 3
+     * then the program will display a Goodbye message and exit the loop completely.
+     */
     static void Main()
     {
         Book book1 = new Book("Diary of a wimpy kid", 437829, false);
