@@ -15,7 +15,7 @@ public class Book
 
     public void DisplayAllInfo()
     {
-        Console.WriteLine($"Book Title: {title}\nBook Id: {bookId}\nCheckedOut: {checkedOut}");
+        Console.WriteLine($"Book Title: {title}, Book ID: {bookId}, CheckedOut: {checkedOut}");
     }
 
     public void ToggleOut()
